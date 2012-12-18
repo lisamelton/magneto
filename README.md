@@ -10,6 +10,12 @@ For example, Magneto is not "blog aware" like some other systems, but it allows 
 
 Before using Magneto, realize that it does have limitations due to its simplicity and that its programming interface may change because it's still under development.
 
+## Installation
+
+Magneto is [available as a gem](https://rubygems.org/gems/magneto) which you can install like this:
+
+        sudo gem install magneto
+
 ## Usage
 
         magneto [OPTION]...
@@ -42,3 +48,7 @@ Enabling automatic regeneration requires installation of the Directory Watcher g
         sudo gem install directory_watcher
 
 Using any of the built-in filters could require additional gem installations.
+
+## License
+
+Magneto is copyright Don Melton and available under a [MIT license](https://github.com/donmelton/magneto/blob/master/LICENSE).
