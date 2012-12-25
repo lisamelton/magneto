@@ -14,11 +14,11 @@ Before using Magneto, realize that it does have limitations due to its simplicit
 
 Magneto is [available as a gem](https://rubygems.org/gems/magneto) which you can install like this:
 
-        sudo gem install magneto
+    sudo gem install magneto
 
 ## Usage
 
-        magneto [OPTION]...
+    magneto [OPTION]...
 
 Source file items, their templates and the site controller script are loaded from the `items` and `templates` directories and from the `script.rb` file, all within the current directory. These are watched for changes and reloaded when automatic regeneration is enabled.
 
@@ -28,16 +28,16 @@ The generated site is written to the `output` directory.
 
 Configuration is loaded from `config.yaml` but can be overriden using the following options:
 
-        -c, --config PATH                use specific YAML configuration file
-        -s, --source PATH                use specific source directory
-        -o, --output PATH                use specific output directory
-    
-            --[no-]hidden                include [exclude] hidden source files
-            --[no-]remove                remove [keep] obsolete output
-            --[no-]auto                  enable [disable] automatic regeneration
-    
-        -h, --help                       display this help and exit
-            --version                    output version information and exit
+    -c, --config PATH                use specific YAML configuration file
+    -s, --source PATH                use specific source directory
+    -o, --output PATH                use specific output directory
+
+        --[no-]hidden                include [exclude] hidden source files
+        --[no-]remove                remove [keep] obsolete output
+        --[no-]auto                  enable [disable] automatic regeneration
+
+    -h, --help                       display this help and exit
+        --version                    output version information and exit
 
 ## Dependencies
 
@@ -45,7 +45,7 @@ Magneto doesn't have any dependencies for basic operation.
 
 Enabling automatic regeneration requires installation of the Directory Watcher gem:
 
-        sudo gem install directory_watcher
+    sudo gem install directory_watcher
 
 Using any of the built-in filters could require additional gem installations.
 
