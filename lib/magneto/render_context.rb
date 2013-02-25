@@ -8,7 +8,6 @@ module Magneto
       template = @site.templates[template_name.to_sym]
 
       if template.nil?
-        $stderr.puts "#{File.basename($PROGRAM_NAME)}: #{ex.to_s}"
         raise "Couldn't find template: '#{template_name.to_s}'"
       end
 
