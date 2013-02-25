@@ -67,7 +67,6 @@ module Magneto
       filter = @site.filters[filter_name.to_sym]
 
       if filter.nil?
-        $stderr.puts "#{File.basename($PROGRAM_NAME)}: #{ex.to_s}"
         raise "Couldn't find filter: '#{filter_name.to_s}'"
       end
 
@@ -84,7 +83,6 @@ module Magneto
       template = @site.templates[template_name.to_sym]
 
       if template.nil?
-        $stderr.puts "#{File.basename($PROGRAM_NAME)}: #{ex.to_s}"
         raise "Couldn't find template: '#{template_name.to_s}'"
       end
 
