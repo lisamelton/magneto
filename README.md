@@ -4,7 +4,7 @@ Magneto is a static site generator.
 
 ## About
 
-Hi, I'm Don Melton. I wrote Magneto to generate [my own website](http://donmelton.com/). Magneto was inspired by [nanoc](http://nanoc.stoneship.org/) and [Jekyll](http://jekyllrb.com/), but it's a much simpler tool with fewer features and less policy.
+Hi, I'm Lisa Melton. I wrote Magneto to generate my own website. Magneto was inspired by [nanoc](http://nanoc.stoneship.org/) and [Jekyll](http://jekyllrb.com/), but it's a much simpler tool with fewer features and less policy.
 
 For example, Magneto is not "blog aware" like some other systems, but it allows you to write a site controller script and plugins which can easily generate blog posts, an index page and a RSS feed. This is how I use it. There may be more work up front compared to other tools, but Magneto gives you very precise control over its behavior and output.
 
@@ -51,4 +51,4 @@ Using any of the built-in filters could require additional gem installations.
 
 ## License
 
-Magneto is copyright Don Melton and available under a [MIT license](https://github.com/donmelton/magneto/blob/master/LICENSE).
+Magneto is copyright Lisa Melton and available under a [MIT license](https://github.com/lisamelton/magneto/blob/master/LICENSE).

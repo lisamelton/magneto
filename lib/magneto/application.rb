@@ -96,7 +96,7 @@ module Magneto
           opts.on_tail '--version', 'output version information and exit' do
             puts <<VERSION_HERE
 #{File.basename($PROGRAM_NAME)} #{VERSION}
-Copyright (c) 2012 Don Melton
+Copyright (c) 2012-2024 Lisa Melton
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 VERSION_HERE
